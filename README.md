@@ -26,4 +26,28 @@ Retail businesses often face challenges in accurately forecasting sales, especia
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/chandana95siva/department-wide-sales-prediction.git
+   git clone https://github.com/chandana95siva/DS_Final_project.git
+2. Install the required libraries:
+   ```sh
+   pip install -r requirements.txt
+## Usage 
+1. Run the Streamlit web application:
+   ```sh
+   streamlit run app.py
+2. Access the application through the provided URL in your web browser.
+## File Structure
+The project directory structure is as follows:
+.
+├── app.py                    # Contains the main code for the Streamlit web application.
+├── reg_model.pkl             # Pickled machine learning model for predicting sales.
+├── sales_prediction.csv      # Sample dataset used for training the model.
+├── README.md                 # Markdown file providing detailed information about the project.
+└── requirements.txt          # List of required Python libraries.
+
+
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or additional features you'd like to see.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+   
+
